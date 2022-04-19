@@ -1,0 +1,27 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 5rem;
+    text-align: center;
+}
